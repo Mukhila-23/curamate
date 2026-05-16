@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Curamate" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Apply gradient background -->
+        <item name="android:windowBackground">@drawable/background_gradient</item>
+    </style>
+
+    <style name="Theme.Curamate" parent="Base.Theme.Curamate" />
+</resources>

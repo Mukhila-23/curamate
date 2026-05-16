@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Select sleep time -->
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnSetSleepTime"
+        android:text="Set Sleep Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Select wake-up time -->
+    <Button
+        android:id="@+id/btnSetWakeTime"
+        android:text="Set Wake-up Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Calculate sleep -->
+
+    <!-- Show result -->
+    <TextView
+        android:id="@+id/txtResult"
+        android:text="Your sleep duration will be shown here."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Sleep history -->
+    <TextView
+        android:id="@+id/txtHistory"
+        android:text="Weekly Sleep History:"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
